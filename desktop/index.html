@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication Demo Desktop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Desktop JWT Demo</h1>
+      <p>Electron istemcisi JWT login yapar ve protected endpoint cagirir.</p>
+
+      <section class="panel">
+        <div class="actions">
+          <button id="login">JWT login</button>
+          <button id="protected" disabled>Protected cagir</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Token</h2>
+        <pre id="token">Token yok</pre>
+      </section>
+
+      <section class="panel">
+        <h2>Sonuc</h2>
+        <pre id="result">Sonuc burada gorunecek.</pre>
+      </section>
+    </main>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex
+.codex/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# .NET API
+bin/
+obj/
+
+# Node projects: web, mobile, desktop
+node_modules/
+dist/
+build/
+.vite/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+web-build/
+
+# Electron
+out/
+release/
+
+# Rust CLI
+target/
